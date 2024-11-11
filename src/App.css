@@ -1,0 +1,265 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-image: 
+    url('/public/bkg.jpg');
+
+    
+  background-size: cover; 
+  background-position: top left, bottom right, center center, top center; 
+  height: 100vh;
+}
+
+#weather, #travel-options, #iternary, #activities, #bookings {
+  border: 2px solid white;
+  margin-top: 10px;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+#home {
+  margin: 0 10%;
+  width: 80%;
+}
+#details {
+  margin-left: 10%;
+}
+#details, li a {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+h2, h3 {
+  color: white;
+}
+
+button {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #004494;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+#root {
+  margin: 20px;
+}
+
+/* TripPlannerApp Styles */
+.trip-planner-app h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.trip-planner-app .trip-list {
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+/* TripList Styles */
+.trip-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.trip-list-item span {
+  cursor: pointer;
+}
+
+.trip-list-item span:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.trip-list-item button {
+  background-color: #ff4d4d;
+  border: none;
+  border-radius: 4px;
+}
+
+.trip-list-item button:hover {
+  background-color: #e63946;
+}
+
+/* TripDetail Styles */
+.trip-detail {
+  margin-top: 20px;
+}
+
+.trip-detail h2 {
+  border-bottom: 2px solid #0056b3;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.trip-detail .bookings, .trip-detail .activities, .trip-detail .weather, .trip-detail .map-container {
+  margin-top: 15px;
+}
+
+.trip-detail .map-container {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #fafafa;
+}
+
+.trip-detail .weather p {
+  margin: 0;
+}
+
+/* BookingForm Styles */
+.booking-form {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.booking-form label {
+  font-weight: bold;
+}
+
+.booking-form input {
+  margin-top: 5px;
+}
+
+.booking-form button {
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* Itinerary Styles */
+.itinerary {
+  margin-top: 15px;
+}
+
+.itinerary h3 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.itinerary ul {
+  padding: 0;
+}
+
+.itinerary li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.itinerary li button {
+  background-color: #ff4d4d;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+/* ActivitySuggestions Styles */
+.activity-suggestions {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.activity-suggestions h3 {
+  color: white;
+}
+
+.activity-suggestions ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.activity-suggestions li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.activity-suggestions li button {
+  background-color: #0056b3;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: none;
+}
+
+.activity-suggestions li button:hover {
+  background-color: #004494;
+}
+
+/* WeatherWidget Styles */
+.weather-widget {
+  margin-top: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.weather-widget p {
+  margin: 5px 0;
+}
+
+/* Map Styles */
+.map-container {
+  height: 300px;
+  background-color: #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
